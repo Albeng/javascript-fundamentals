@@ -90,3 +90,134 @@
 // 1 == 1;
 // 1 === "1";
 // 1 != 1;
+
+// Logical Operators
+
+// let result = null || (2 && 3) || 4;
+
+// console.log(result);
+
+// let year = prompt("In which year was the ECMAScript-2015 specs published?");
+// console.log(typeof year);
+
+// if (year < 2015) {
+//     alert("That is to Early!");
+// } else if (year > 2015) { 
+//     alert("That is too late");
+//  } else {
+//     alert("Exactly");
+//  } 
+  
+// let accessAllowed;
+// let age = prompt("How old are you?");
+
+// if (age >= 18) {
+//     accessAllowed = true;
+// } else {
+//     accessAllowed = false;
+// }
+
+// console.log(accessAllowed);
+
+// let age = prompt("What is your age?");
+
+// if (age <= 3) {
+//     console.log("Toddlers");
+// } else if (age > 3 && age <= 10) {
+//     console.log("Kids");
+// } else if (age > 10 && age <= 19) {
+//     console.log("Tennagers");
+// } else if (age > 19 && age <= 29) {
+//     console.log("Young Adults");
+// } else {
+//     console.log("Adult");
+// }
+
+
+// let grade = prompt("Type your grade")
+
+// if (grade >= 98 && grade <= 100){
+//     console.log("With Highest Honors");
+// } else if (grade >= 95 && grade <= 97) {
+//     console.log("With High Honors");
+// } else if (grade >= 90 && grade <= 94) {
+//     console.log("With Honors");
+// } else {
+//     console.log("Bagsak");
+// }
+
+// let currentDay = prompt("What is the Current day?");
+
+// switch (currentDay) {
+//     case "Sunday":
+//     console.log("Its Sunday, Time to relx");
+//     break;
+//     case "Monday":
+//     console.log("Happy Monday");
+//     break;
+//     case "Tuesday":
+//     console.log("Happy Tuesday");
+//     break;
+//     case "Wednesday":
+//     console.log("Happy Wednesday");
+//     break;
+//     case "Thursday":
+//     console.log("Happy Thursday");
+//     break;
+//     case "Friday":
+//     console.log("Happy Friday");
+//     break;
+//     default:
+//     console.log("Have a wonderful saturday");
+// }
+
+
+// let grade = prompt ("Type Your Grade:") ;
+
+// switch (true) {
+//     case grade >= 90:
+//         console.log("A");
+//     break;
+//     case grade >= 80:
+//         console.log("B");
+//     break;
+//     case grade >= 70:
+//         console.log("C");
+//     break;
+//     case grade >= 60:
+//         console.log("D");
+//     break;
+//     case grade >= 50:
+//         console.log("F");
+//     default:
+        
+
+// }
+
+let month = new Date().getMonth();
+
+switch (month) {
+    case 0:
+    case 1:
+    case 2:
+        console.log("Winter");
+    break;
+    case 3:
+    case 4:
+    case 5:
+       console.log("Spring");
+    break;
+    case 6:
+    case 7:
+    case 8:
+       console.log("Summer");
+    break;
+    case 9:
+    case 10:
+    case 11:
+       console.log("Atumn");
+    break;
+    default:
+        console.log("Something went wrong");
+}
+

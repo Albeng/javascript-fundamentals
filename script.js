@@ -194,30 +194,67 @@
 
 // }
 
-let month = new Date().getMonth();
+// let month = new Date().getMonth();
 
-switch (month) {
-    case 0:
-    case 1:
-    case 2:
-        console.log("Winter");
-    break;
-    case 3:
-    case 4:
-    case 5:
-       console.log("Spring");
-    break;
-    case 6:
-    case 7:
-    case 8:
-       console.log("Summer");
-    break;
-    case 9:
-    case 10:
-    case 11:
-       console.log("Atumn");
-    break;
-    default:
-        console.log("Something went wrong");
-}
+// switch (month) {
+//     case 0:
+//     case 1:
+//     case 2:
+//         console.log("Winter");
+//     break;
+//     case 3:
+//     case 4:
+//     case 5:
+//        console.log("Spring");
+//     break;
+//     case 6:
+//     case 7:
+//     case 8:
+//        console.log("Summer");
+//     break;
+//     case 9:
+//     case 10:
+//     case 11:
+//        console.log("Atumn");
+//     break;
+//     default:
+//         console.log("Something went wrong");
+// }
 
+//  let currentDay = prompt("What is the Current day?");
+
+//  function getDay() {
+//      const arrDates = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday", "Saturday"];
+    
+//      const low = arrDates.map(a => a.toLowerCase());
+    
+//      if (low.includes(currentDay.toLowerCase())) {
+//          console.log("Happy " + currentDay);
+//      } else {
+//          console.log("oopsie doopsie")
+//      }
+//  }
+
+//  getDay();
+
+// const printName = (name) => {
+//    return name;
+// };
+
+// console.log(printName("Alvin Alvaro"));
+// printName("Alvin Alvaro")
+
+// const random = (number) => {
+//    return Math.floor(Math.random() * number);
+// };
+
+// console.log(random(5));
+
+const isTodayMonday = () => {
+   const date = new Date();
+   let day = date.getDay();
+
+   return day === 4;
+};
+
+console.log(isTodayMonday());
